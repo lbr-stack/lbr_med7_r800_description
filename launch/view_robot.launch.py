@@ -29,7 +29,9 @@ def generate_launch_description() -> LaunchDescription:
                             [
                                 FindExecutable(name="xacro"),
                                 " ",
-                                PathSubstitution(FindPackageShare("med7_description"))
+                                PathSubstitution(
+                                    FindPackageShare("med7_r800_description")
+                                )
                                 / "urdf"
                                 / "med7.urdf.xacro",
                                 " robot_name:=",
@@ -53,7 +55,7 @@ def generate_launch_description() -> LaunchDescription:
                 arguments=[
                     [
                         "-d",
-                        PathSubstitution(FindPackageShare("med7_description"))
+                        PathSubstitution(FindPackageShare("med7_r800_description"))
                         / "rviz"
                         / "view_robot.rviz",
                     ]
