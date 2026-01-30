@@ -33,7 +33,7 @@ def generate_launch_description() -> LaunchDescription:
                                     FindPackageShare("med7_r800_description")
                                 )
                                 / "urdf"
-                                / "med7.urdf.xacro",
+                                / "med7_r800.urdf.xacro",
                                 " robot_name:=",
                                 LaunchConfiguration("robot_name"),
                             ]
