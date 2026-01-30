@@ -3,7 +3,7 @@
 <package format="3">
   <name>med7_description</name>
   <version>2.5.0</version>
-  <description>KUKA LBR MED 7 description files</description>
+  <description>KUKA LBR MED 7 R800 description files</description>
   <maintainer email="m.huber_1994@hotmail.de">mhubii</maintainer>
   <license>Apache-2.0</license>
 
