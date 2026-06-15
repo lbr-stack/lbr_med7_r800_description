@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <!-- top level -->
-<robot name="med7" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="lbr_med7_r800" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
     <!-- include the Med 7 R800 macro -->
     <xacro:include filename="$(find lbr_med7_r800_description)/urdf/lbr_med7_r800_macro.xacro" />
@@ -13,7 +13,7 @@
         default="$(find lbr_med7_r800_description)/config/joint_limits.yaml" />
 
     <!-- Med 7 R800 description -->
-    <xacro:med7_r800
+    <xacro:lbr_med7_r800
         robot_name="$(arg robot_name)"
         joint_limits_path="$(arg joint_limits_path)" />
 </robot>

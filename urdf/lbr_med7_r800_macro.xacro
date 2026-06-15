@@ -2,7 +2,7 @@
 
 <root xmlns:xacro="http://www.ros.org/wiki/xacro">
     <!-- robot as extracted via https://github.com/syuntoku14/fusion2urdf -->
-    <xacro:macro name="med7_r800"
+    <xacro:macro name="lbr_med7_r800"
         params="robot_name:=^|lbr joint_limits_path:=^|'$(find lbr_med7_r800_description)/config/joint_limits.yaml'">
 
         <!-- load joint limits via yaml -->
